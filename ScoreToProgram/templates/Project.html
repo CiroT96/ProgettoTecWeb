@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <!-- CSS -->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/bootstrap-italia.min.css') }}">
+    <link rel="stylesheet" href="bootstrap-italia.min.css">
+</head>
+<main>
+
+<section id="briciole" class="container px-4 my-4">
+    <div class="row">
+        <div class="col px-lg-4">
+            <nav aria-label="breadcrumb" class="breadcrumb-container">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="#">Home</a><span class="separator">/</span>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="ClassificheMondiali.html">World Rankings</a><span class="separator">/</span>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="../Gioco.html">Game</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</section>
+                <h1>Programming by Playing</h1>
+        <div class="row border-top row-column-border row-column-menu-left">
+            <aside class="col-lg-4">
+                <div class="sticky-wrapper navbar-wrapper">
+                    <nav class="navbar it-navscroll-wrapper it-top-navscroll navbar-expand-lg">
+                        <button class="custom-navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarNav">
+                            <span class="it-list"></span>Page index
+                        </button>
+                        <div class="navbar-collapsable" id="navbarNav">
+                            <div class="overlay"></div>
+                            <div class="close-div sr-only">
+                                <button class="btn close-menu" type="button">
+                                    <span class="it-close"></span>Chiudi
+                                </button>
+                            </div>
+                            <a class="it-back-button" href="#">
+                                <svg class="icon icon-sm icon-primary align-top">
+                                    <use
+                                            href="{{
+                      site.baseurl
+                    }}/dist/svg/sprite.svg#it-chevron-left"
+                                    ></use>
+                                </svg>
+                                <span>Torna indietro</span></a
+                            >
+                            <div class="menu-wrapper">
+                                <div class="link-list-wrapper menu-link-list">
+                                    <h3 class="no_toc">Page index</h3>
+                                    <ul class="link-list">
+                                        <li class="nav-item active">
+                                            <a class="nav-link active" href="#What is it"
+                                            ><span>What is it</span></a
+                                            >
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#Who does it address"
+                                            ><span>Who does it address</span></a
+                                            >
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#What is it for"
+                                            ><span>What is it for</span></a
+                                            >
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#contatti"
+                                            ><span>Contacts</span></a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </aside>
+            <section class="col-lg-8 it-page-sections-container">
+                <article id="What is it" class="it-page-section anchor-offset">
+                    <h4>What is it?</h4>
+                    <p class="text-serif">It is a product that offers itself to the needs of those who want to approach programming
+                        for the first time and/or those who want to improve their skills and competences in the subject.</p>
+                </article>
+                <article id="Who does it address" class="it-page-section anchor-offset">
+                    <h4>Who does it address?</h4>
+                    <p class="text-serif"> The product is aimed primarily at those who have seen the opportunities that exist in this field and realized that this is the time to act.
+                        It is a training path suitable for all those who want to try their hand in the world of programming,
+                        to use the application does not require any special requirements or skills if not a passion for the subject
+                        and a constant commitment to finish the proposed levels.
+                    </p>
+                </article>
+                <article id="What is it for" class="it-page-section anchor-offset">
+                    <h4>What is it for?</h4>
+                    <p class="text-serif">The product allows users to approach various elements of basic programming.
+                        With the possibility of gaining experience in programming and getting to have skills in this field.</p>
+
+                </article>
+                <article id="contatti" class="it-page-section anchor-offset">
+                    <h4>Contacts</h4>
+                        <div class="card card-teaser shadow p-4">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Personal reference data
+                                </h5>
+                                <div class="card-text">
+                                    <p>Ciro Testa</p>
+                                    <p>3334455678</p>
+                                    <p>Centro Direzionale, isola C/4 - 80121</p>
+                                </div>
+                            </div>
+                            <div class="avatar size-xl">
+                                <img src="../Immagine.png" alt="Ciro Testa"/>
+                            </div>
+                        </div>
+                        <div class="card card-teaser shadow p-4">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Personal reference data
+                                 </h5>
+                            <div class="card-text">
+                                <p>Alessandro Ferrara</p>
+                                <p>3334455679</p>
+                                <p>Centro Direzionale, isola C/4 - 80121</p>
+                            </div>
+                        </div>
+                        <div class="avatar size-xl">
+                                <img src="../Immagine2.png" alt="Alessandro Ferrara"/>
+                        </div>
+                        </div>
+                </article>
+            </section>
+        </div>
+</main>
+</html>

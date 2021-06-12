@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS -->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/bootstrap-italia.min.css') }}">
+    <link rel="stylesheet" href="bootstrap-italia.min.css">
+    <title>World Rankings</title>
+</head>
+<body>
+<main>
+    <div class="container px-4 my-4">
+        <div class="row">
+            <div class="col px-lg-2">
+                <nav class="breadcrumb-container" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="Project.html">Home</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-lg-7 px-lg-2 py-lg-2">
+            <div class="row">
+                <div class="col">
+                    <h1>World Rakings</h1>
+                    <p>
+                        The user can search for his position in the world rankings
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col py-5">
+                    <div class="input-search-wrapper">
+                        <div class="input-group">
+                            <input
+                                    class="form-control"
+                                    id="input-1"
+                                    type="text"
+                                    placeholder="Search..."
+                                    aria-label="search"
+                            />
+                            <div class="input-group-append">
+                                <button
+                                        class="btn btn-primary btn-icon"
+                                        type="button"
+                                        id="button-search"
+                                        role="button"
+                                        aria-label="button-search"
+                                >
+                                    Enter
+                                    <svg class="icon icon-white">
+                                        <use
+                                                href="{{
+                           site.baseurl
+                        }}/dist/svg/sprite.svg#it-search"
+                                        ></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                                <table style="background-color:#CFF;"
+                                    border="20" bordercolor="white" bordercolorlight="#00CCFF" bordercolordark="#000099">
+                                    <tr><th>Nome</th><th>Punteggio</th></tr>
+                                    <tr>
+                                    </td>
+                                    <td width="50%"></td>
+                                    </tr>
+                                    <tbody>
+                                    <tr><td>{{ nome }}</td><td>{{ score }}</td></tr>
+                                    <tr><td>{{ nome1 }}</td><td>{{ score1 }}</td></tr>
+                                    <tr><td>{{ nome2 }}</td><td>{{ score2 }}</td></tr>
+                                    <tr><td>{{ nome3 }}</td><td>{{ score3 }}</td></tr>
+                                    <tr><td>{{ nome4 }}</td><td>{{ score4 }}</td></tr>
+                                    <tr><td>{{ nome5 }}</td><td>{{ score5 }}</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</main>
+</body>
+</html>
