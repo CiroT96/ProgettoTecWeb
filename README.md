@@ -6,3 +6,7 @@ Lato server: la gestione di un piccolo DB noSQL, MongoDB, per la gestione della 
 Per la prova del progetto, bisogna, provare in maniera differente le due cose sopra citata:
 1°) Aprire con Google Chrome, in locale, la pagina HTML --> Gioco.html.
 2°) A priori, fatta l'installazione di MongoDB, Flask, PyMongo, Flask-PyMongo; Si può mandare in esecuzione sul terminale con la sintassi python app.py o mediante l'ausilio del console python, il file app.py; Fatto ciò basta cliccare sull'indirizzo IP proposto.
+#Clonazione
+Per come clonare la repository, ci sono duo opzioni:
+1°)Utilazzare GitHub Desktop; inserendo la URL: https://github.com/CiroT96/ProgettoTecWeb.git
+2°)Utilizzare il Prompt dei Comand; utilizzando la sintassi --> git clone https://github.com/CiroT96/ProgettoTecWeb.git
